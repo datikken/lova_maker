@@ -28,6 +28,7 @@
     "@nestjs/platform-express": "^8.0.0",
     "@nestjs/sequelize": "^8.0.0",
     "@types/sequelize": "^4.28.11",
+    "lodash": "^4.17.21",
     "mysql2": "^2.3.3",
     "puppeteer": "^13.5.2",
     "reflect-metadata": "^0.1.13",

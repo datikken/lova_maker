@@ -14,7 +14,7 @@ export class LinksController {
 
   @Get()
   findAll() {
-    return this.linksService.findAll();
+    return this.linksService.findAllLinkTags('https://kiwitaxi.com/');
   }
 
   @Get(':id')
