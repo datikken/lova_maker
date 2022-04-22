@@ -15,6 +15,6 @@ export const getDomain = (str) => {
 };
 
 export const switchDomain = (link, domain) => {
-  const linkDomain = this.getDomain(link);
+  const linkDomain = getDomain(link);
   return link.replace(linkDomain, domain).replace('www.', '');
 };
