@@ -7,7 +7,7 @@ import { DatabaseModule } from './database/database.module';
 import { SocketsModule } from './sockets/sockets.module';
 import * as Joi from '@hapi/joi';
 
-import configuration from '../config/configuration';
+import configuration from '../ormconfig';
 
 @Module({
   imports: [
